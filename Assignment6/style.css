@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    border: 1px solid red;
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    border: 1px solid black;
+    width: 25vw;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.col span {
+    border: 1px solid black;
+    height: 8vh;
+    width: 100%;
+}
