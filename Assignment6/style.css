@@ -5,12 +5,13 @@
 }
 
 #container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100dvh;
     width: 100dvw;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #7A2048 ;
 }
 
 .col{
@@ -21,8 +22,20 @@
     flex-direction: column;
 }
  
-.col span {
-    border: 1px solid black;
+.col p {
+    border: 1px solid black;   
     height: 8vh;
     width: 100%;
+    text-align:left;
+    padding-top:2dvh;
+    padding-left:1dvh;
+    background-color: #408EC6;
+    font-family: "Kode Mono", monospace;
+    font-weight:900px;
+}
+
+p.p0{
+    background-color: #1E2761;
+    font-size:20px;
+    color: white;
 }
