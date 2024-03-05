@@ -11,7 +11,7 @@ var col3 = document.getElementsByClassName("col1");
 var colItem3 = "";
 
 for (var i = 0; i < colStore1.length; i++){
-    colItem1 += `<span><p>${colStore1[i]}</p></span> \n`;
+    colItem1 += `<p class="p${i}">${colStore1[i]}</p> \n`;
 }
 col1.innerHTML = colItem1;
 console.log(col1.innerHTML)
