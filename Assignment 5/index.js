@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment5</title>
-    <script defer>
-
         //Task 1:
         console.log("Task 1:");
 
@@ -98,11 +90,3 @@
         colors.splice(i, 1, palette[(colors.length - 1) - i]);
         }
         console.log("Reversed Colors Array: " + colors);
-
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

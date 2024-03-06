@@ -1,13 +1,3 @@
-<DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Assignment3</title>
-
-        <script defer>
-
             //Task 1:
             var fruits = ["apple", "banana", "orange", "grape"];
             //Fruits On Fruits Stand:
@@ -17,8 +7,6 @@
             //Available Fruits After First Customer's Purchase:
             console.log("Fruits Available After First Purchase: " + fruits);
 
-
-            hhuhu
             //Second Customer Buys A fruits:
             fruits.pop();
             //Available Fruits After Second Customer's Purchase:
@@ -68,10 +56,3 @@
             lngth = nums.length;
             avg = sum/lngth;
             console.log('The Average Of Array Is: ' + avg);
-
-        </script>
-
-    </head>
-    <body>
-    </body>
-</html>

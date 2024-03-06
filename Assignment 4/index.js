@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment4</title>
-    <script defer>
-
         //Task 1:
         console.log("Task 1: ")
         for (var i = 1; i <= 5; i++){
@@ -58,9 +50,3 @@
             console.log(star);
             star = star + star2;
         }
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
