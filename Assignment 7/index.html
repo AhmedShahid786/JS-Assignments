@@ -3,18 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Assignment 7</title>
-    <style>
-
-      h1{
-        color: rgb(255, 0, 153); 
-        font-size: 60px
-      }
-    </style>
   </head>
   <body>
-    <!-- For Question 1 -->
-    <h1 id="prop""></h1>
+    <!-- For Question 1
+    <h1 id="prop""></h1> -->
+
+    <div id="head"><h1>Guess The Number</h1></div>
+
+    <div id="main">
+      <div id="nums">
+        <div class="num" onclick="check_num(1)">1</div>
+        <div class="num" onclick="check_num(2)">2</div>
+        <div class="num" onclick="check_num(3)">3</div>
+        <div class="num" onclick="check_num(4)">4</div>
+        <div class="num" onclick="check_num(5)">5</div>
+        <div class="num" onclick="check_num(6)">6</div>
+      </div>
+
+      <div id="output">
+        <div class="output_child">
+          <p>User Number:</p>
+          <p id="user_num">-</p>
+        </div>
+
+        <div class="output_child">
+          <p>Actual Number:</p>
+          <p id="actual_num">-</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="result">
+      <p id="result"></p>
+    </div>
 
     <script defer src="./app.js"></script>
   </body>

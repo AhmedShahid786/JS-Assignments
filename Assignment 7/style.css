@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid purple;
+  color: deepskyblue;
+  font-family: monospace;
+}
+
+#head {
+  height: 15dvh;
+  margin: 2dvh 2dvh;
+  word-spacing: 10px;
+  font-size: 25px;
+}
+
+#main {
+  height: 55dvh;
+  margin: 2dvh 2dvh;
+}
+
+#nums {
+  border: 2px solid deepskyblue;
+  height: 90%;
+  width: 60%;
+  flex-wrap: wrap;
+  gap: 20%;
+  font-size: 22px;
+}
+#nums div {
+  height: 10dvh;
+  width: 18dvh;
+}
+#nums div:hover {
+  border: 2px solid deepskyblue;
+}
+
+#output {
+  border: 2px solid deepskyblue;
+  height: 90%;
+  width: 38%;
+  margin-left: 1%;
+  flex-direction: column;
+  gap: 3%;
+  font-size: 26px;
+}
+#output div {
+  height: 45%;
+  width: 90%;
+  flex-direction: column;
+}
+
+#result {
+  height: 20dvh;
+  margin: 2dvh 2dvh;
+  word-spacing: 10px;
+  font-size: 45px;
+}
