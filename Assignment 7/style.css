@@ -57,9 +57,17 @@ div {
   flex-direction: column;
 }
 
-#result {
+#result_box {
+  justify-content: space-around;
   height: 20dvh;
   margin: 2dvh 2dvh;
   word-spacing: 10px;
   font-size: 45px;
+}
+#chances {
+  font-size: 25px;
+  width: 20%;
+}
+#result {
+  width: 70%;
 }
