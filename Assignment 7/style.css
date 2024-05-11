@@ -10,6 +10,7 @@ div {
   align-items: center;
   justify-content: center;
   border: 2px solid purple;
+  border-radius: 10px;
   color: deepskyblue;
   font-family: monospace;
 }
@@ -37,6 +38,7 @@ div {
 #nums div {
   height: 10dvh;
   width: 18dvh;
+  border-radius: 10px;
 }
 #nums div:hover {
   border: 2px solid deepskyblue;
