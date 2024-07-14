@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body
+    style="font-family: 'Quicksand'"
+    class="bg-slate-950 h-dvh w-dvw flex justify-center items-center"
+  >
+    <div id="display" class="border-2 h-96 w-96 flex justify-between items-center flex-col">
+      <div class="h-1/6 flex justify-center items-center w-full text-emerald-500 text-4xl font"><p id="signup_head">SignUp</p></div>
+      <div id="signin_div" class="h-3/5 w-full flex justify-center items-center flex-col">
+        <input
+        type="email"
+        name="SignUp_email"
+        id="signup_email"
+        placeholder="Enter Email"
+        class="h-1/4 w-2/3 bg-transparent border-2 border-sky-700 rounded-full m-auto pl-2 text-emerald-500"
+      />
+      <input
+        type="password"
+        name="SignUp_password"
+        id="signup_password"
+        placeholder="Enter Password"
+        class="h-1/4 w-2/3 bg-transparent border-2 border-sky-700 rounded-full m-auto pl-2 text-emerald-500"
+      />
+
+      <button id="signup_btn" class="text-emerald-500 border-2 border-sky-700 rounded-full py-2 px-3 mb-2">SignUp</button>
+      
+    </div>
+
+    <div id="signin_gate" class="text-lg h-1/6 flex justify-center items-center w-full text-emerald-500">
+      <p>Already A User?</p>
+      <button id="signin_ui_btn" class="text-emerald-500 border-2 border-sky-700 rounded-full py-0.5 px-2 ml-2">SignIn</button>
+    </div>
+
+      </div>
+    </div>
+    <script type="module" defer src="./app.js"></script>
+  </body>
+</html>
